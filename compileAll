@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ls *.cpp | while read line
+do
+	g++ $line -o $(echo $line | cut -d "." -f 1)
+done

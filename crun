@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo [+] Compiling $1
+g++ $1 -o $(echo $1 | cut -d "." -f 1)
+
+if [ $? -eq 0 ]; then
+echo [+] Compiling Successful
+else
+echo [-] Compiling Failed
+exit
+fi
+
+echo [+] Running Program
+echo
+
+./$(echo $1 | cut -d "." -f 1)
