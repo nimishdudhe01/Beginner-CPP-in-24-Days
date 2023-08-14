@@ -241,7 +241,3 @@ int main() {
 ## Contribute
 
 If you have additional code examples or improvements to existing ones, feel free to fork this repository and submit a pull request.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
