@@ -30,12 +30,12 @@ To run these code examples, make sure you have a C++ compiler installed on your 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/cpp-code-examples.git
+   git clone https://github.com/nimishdudhe01/Beginner-CPP-in-24-Days
    ```
 
 2. Navigate to the desired code example directory:
    ```bash
-   cd cpp-code-examples/ExampleDirectory
+   cd Beginner-CPP-in-24-Days
    ```
 
 3. Compile the code using your chosen compiler. For example:
