@@ -37,15 +37,14 @@ To run these code examples, make sure you have a C++ compiler installed on your 
    ```bash
    cd Beginner-CPP-in-24-Days
    ```
-
-3. Compile the code using your chosen compiler. For example:
+3. Make the bash scripts executable.
    ```bash
-   g++ example.cpp -o example
+   chmod +x c*
    ```
 
-4. Run the compiled executable:
+4. Compile the code using your chosen compiler. For example:
    ```bash
-   ./example
+   ./crun d-2-hw.cpp
    ```
 
 ## Examples
